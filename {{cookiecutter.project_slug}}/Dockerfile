@@ -5,7 +5,7 @@ FROM python:3.5-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-ADD . /app
+ADD ./{{cookiecutter.project_slug}} /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
