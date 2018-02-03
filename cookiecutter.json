@@ -1,10 +1,10 @@
 {
 	"full_name": "Brecht Dierckx",
 	"email": "brecht.dierckx@gmail.com",
-	"github_username": "flatspaceking",
+	"github_username": "flatspace",
 	"project_name": "Python Boilerplate",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-	"project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+	"project_short_description": "",
 	"release_date": "2018-01-11",
 	"pypi_username": "{{ cookiecutter.github_username }}",
 	"year": "2018",
