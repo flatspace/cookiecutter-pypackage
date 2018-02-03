@@ -15,21 +15,8 @@
 
 {{ cookiecutter.project_short_description}}
 
-* Free software: ISC license
-* Documentation: https://{{ cookiecutter.project_slug }}.readthedocs.org.
 
 Features
 --------
 
 * TODO
-
-Credits
----------
-
-Tools used in rendering this package:
-
-*  Cookiecutter_
-*  `cookiecutter-pypackage`_
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
