@@ -1,10 +1,12 @@
 # Use an official Python runtime as a parent image
 FROM python:3.6.1-alpine
 
+ARG env
+
 ADD requirements.txt /tmp/requirements.txt
 
 # Install any needed packages specified in requirements.txt
-RUN pip install -r /tmp/requirements.txt
+RUN pip install -r /tmp/${env}.txt
 
 # Set the working directory to /app
 WORKDIR /app
