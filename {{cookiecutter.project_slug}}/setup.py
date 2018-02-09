@@ -47,7 +47,6 @@ setup(
                  '{{ cookiecutter.project_slug }}'},
     include_package_data=True,
     install_requires=requirements,
-    license="ISCL",
     zip_safe=False,
     keywords='{{ cookiecutter.project_slug }}',
     classifiers=[
