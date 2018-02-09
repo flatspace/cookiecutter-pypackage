@@ -3,7 +3,7 @@ FROM python:3.6.1-alpine
 
 ARG env
 
-ADD requirements.txt /tmp/requirements.txt
+ADD requirements.txt /tmp/${env}.txt
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r /tmp/${env}.txt
