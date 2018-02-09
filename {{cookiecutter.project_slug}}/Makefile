@@ -79,7 +79,7 @@ dist: clean
 install: clean
 	python setup.py install
 
-docker-run:
+docker-prod:
 	docker build\
 		--file=./Dockerfile \
 		--tag={{cookiecutter.project_slug}} ./
