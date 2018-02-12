@@ -1,6 +1,6 @@
 {
-	"full_name": "Brecht Dierckx",
-	"email": "brecht.dierckx@gmail.com",
+	"full_name": "Joe Funnypants",
+	"email": "something@something",
 	"github_username": "flatspace",
 	"project_name": "Python Boilerplate",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
@@ -8,5 +8,5 @@
 	"release_date": "2018-01-11",
 	"pypi_username": "{{ cookiecutter.github_username }}",
 	"year": "2018",
-	"version": "0.1.0"
+	"version": "0.0.0"
 }
